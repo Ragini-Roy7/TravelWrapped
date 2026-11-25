@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -46,3 +47,84 @@ next-env.d.ts
 .eslintcache
 .turbo
 .swc
+=======
+
+# =====================================
+# Environment variables and secrets
+# =====================================
+.env
+.env.*
+!.env.example
+
+# =====================================
+# Python
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# =====================================
+# Node.js / Next.js
+# =====================================
+node_modules/
+.next/
+out/
+dist/
+.turbo/
+*.tsbuildinfo
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =====================================
+# Environment and local configuration
+# =====================================
+.DS_Store
+Thumbs.db
+*.log
+
+# =====================================
+# IDE and editor
+# =====================================
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# =====================================
+# Temporary files
+# =====================================
+*.tmp
+*.temp
+*.bak
+>>>>>>> d370edb (Project structure and backend setup)
